@@ -7,7 +7,7 @@
 exports.isAdmin = (req, res, next) => {
     // We check for a custom header named 'x-admin-key'.
     // The value of this key is hardcoded to 'supersecretkey' for this example.
-    if (req.headers['x-admin-key'] === 'supersecretkey') {
+    if (req.headers['x-admin-key'] === 'admin@1205') {
         // If the key is correct, we call `next()` to pass control to the next
         // middleware function or the route handler.
         next();

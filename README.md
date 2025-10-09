@@ -65,6 +65,7 @@ The following are the available API routes.
 ### A Note on Authentication
 
 Admin-protected routes require a custom HTTP header to be sent with the request: `x-admin-key: supersecretkey`.
+Admin-protected routes require a custom HTTP header to be sent with the request: `x-admin-key: admin@1205`.
 
 > **Disclaimer**: This authentication method is for demonstration purposes only and is not secure for a production environment. A proper JWT or session-based authentication should be implemented for a live site.
 
